@@ -1,0 +1,29 @@
+.layout {
+  height: 100%;
+}
+.header {
+  background: #fff!important;
+}
+.user {
+  float: right;
+}
+.logo {
+  float: left;
+}
+.sider {
+  background: #fff!important;
+}
+.breadcrumb {
+  margin: 16px 0!important;
+}
+
+.menu-box .main-title {
+  background: #000;
+  color: #fff;
+  height: 48px;
+  line-height: 48px;
+  padding-left: 24px;
+}
+.menu-box i {
+  margin-right: 10px;
+}

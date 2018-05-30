@@ -1,0 +1,60 @@
+@import '~antd/dist/antd.css';
+*{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box; /* Safari */
+  font-size: 14px;
+}
+
+html,body{
+  background-color: #F5F5F7;
+//min-width: 1070px;
+  font-family: PingFangSC-Light,helvetica neue,hiragino sans gb,arial,microsoft yahei ui,microsoft yahei,simsun,sans-serif!important;
+  height:100%;
+  overflow:auto;
+  margin: 0;
+}
+
+/***
+** 设置全局样式
+**/
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+  color: #6e6e6e;
+}
+
+input:focus {
+  outline: none;
+}
+
+select:focus {
+  -webkit-user-select:none;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+input::-ms-clear, ::-ms-reveal {
+  display: none
+}
+
+ul li {
+  list-style-type: none;
+}
+
+/*antd-menu*/
+.ant-menu-item {
+  margin: 0!important;
+  height: 48px!important;
+  line-height: 48px!important;
+}
